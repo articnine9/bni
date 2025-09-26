@@ -1,0 +1,193 @@
+import Link from "next/link";
+
+const Footer = ({ footer }) => {
+  switch (footer) {
+    case 1:
+      return <Footer1 />;
+    default:
+      return <Footer1 />;
+  }
+};
+export default Footer;
+
+const Footer1 = () => {
+  return (
+    <footer className="footer-section footer-bg">
+      <div className="container">
+        <div className="footer-widgets-wrapper">
+          <div className="row">
+            {/* About Us */}
+            <div
+              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay=".2s"
+            >
+              <div className="single-footer-widget">
+                <div className="widget-head">
+                  <h4>About BNI Nagercoil</h4>
+                </div>
+                <div className="footer-content">
+                  <p>
+                    BNI Nagercoil is dedicated to empowering local businesses
+                    through structured networking, professional growth, and
+                    referral-based opportunities.
+                  </p>
+                  <div className="social-icon d-flex align-items-center">
+                    <a href="#">
+                      <i className="fab fa-facebook-f" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-twitter" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-instagram" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Quick Link */}
+            <div
+              className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div className="single-footer-widget">
+                <div className="widget-head">
+                  <h4>Quick Links</h4>
+                </div>
+                <ul className="list-items">
+                  <li>
+                    <Link href="#">Popular Services</Link>
+                  </li>
+                  <li>
+                    <Link href="#">Team Members</Link>
+                  </li>
+                  <li>
+                    <Link href="#">Contact Us</Link>
+                  </li>
+                  <li>
+                    <Link href="#">Membership Packages</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Get In Touch */}
+            <div
+              className="col-xl-3 col-lg-4 col-md-6 ps-lg-1 wow fadeInUp"
+              data-wow-delay=".6s"
+            >
+              <div className="single-footer-widget">
+                <div className="widget-head">
+                  <h4>Get In Touch</h4>
+                </div>
+                <div className="contact-info-area">
+                  <div className="contact-items">
+                    <div className="icon">
+                      <i className="fas fa-map-marker-alt" />
+                    </div>
+                    <div className="content">
+                      <p>
+                        55 Main Street, 2nd Block <br />
+                        Nagercoil, India
+                      </p>
+                    </div>
+                  </div>
+                  <div className="contact-items">
+                    <div className="icon">
+                      <i className="fas fa-envelope" />
+                    </div>
+                    <div className="content">
+                      <a href="mailto:info@bninagercoil.com" className="link">
+                        info@bninagercoil.com
+                      </a>
+                    </div>
+                  </div>
+                  <div className="contact-items">
+                    <div className="icon">
+                      <i className="fas fa-phone-alt" />
+                    </div>
+                    <div className="content">
+                      <h4>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* About Chapter */}
+            <div
+              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay=".8s"
+            >
+              <div className="single-footer-widget">
+                <div className="widget-head">
+                  <h4>BNI Nagercoil Chapter</h4>
+                </div>
+                <div className="footer-content">
+                  <p>
+                    Our chapter focuses on building strong business
+                    relationships, providing referral opportunities, and hosting
+                    weekly networking meetings for professionals in Nagercoil
+                    and surrounding areas.
+                  </p>
+                  <Link href="#" className="theme-btn white-border mt-4">
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Footer Bottom */}
+        <div className="footer-bottom">
+          <div className="container">
+            <div className="footer-wrapper d-flex align-items-center justify-content-between">
+              <ul className="footer-menu wow fadeInUp" data-wow-delay=".2s">
+                <li>
+                  <Link href="#">FAQs</Link>
+                </li>
+                <li>
+                  <Link href="#">Company</Link>
+                </li>
+                <li>
+                  <Link href="#">Privacy</Link>
+                </li>
+              </ul>
+              <a
+                href="#"
+                id="scrollUp"
+                className="scroll-icon wow fadeInUp"
+                data-wow-delay=".4s"
+              >
+                <i className="far fa-angle-double-up" />
+              </a>
+              <div className="d-flex justify-content-between align-items-center">
+                <p className="wow fadeInUp" data-wow-delay=".6s">
+                  © <Link href="/">2025</Link> All Rights Reserved{" "}
+                </p>
+                <p className="wow fadeInUp pl-2" data-wow-delay=".6s">
+                  {" "}
+                  Designed by{" "}
+                  <a
+                    href="https://artic9.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Artic9
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
