@@ -91,8 +91,8 @@ const Footer1 = () => {
                     </div>
                     <div className="content">
                       <p>
-                        55 Main Street, 2nd Block <br />
-                        Nagercoil, India
+                        25/2, North Street, near Reliance Mall, Krishnam Coil,
+                        Nagercoil, Tamil Nadu 629001.
                       </p>
                     </div>
                   </div>
@@ -101,8 +101,8 @@ const Footer1 = () => {
                       <i className="fas fa-envelope" />
                     </div>
                     <div className="content">
-                      <a href="mailto:info@bninagercoil.com" className="link">
-                        info@bninagercoil.com
+                      <a href="mailto:bnikanyamc@gmail.com" className="link">
+                        bnikanyamc@gmail.com
                       </a>
                     </div>
                   </div>
@@ -112,7 +112,9 @@ const Footer1 = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <a href="tel:+919876543210">+91 98765 43210</a>
+                        <a href="tel:+919443979199">+91 94439 79199</a>
+                        <br />
+                        <a href="tel:+919677587777">+91 96775 87777</a>
                       </h4>
                     </div>
                   </div>
@@ -127,7 +129,7 @@ const Footer1 = () => {
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h4>BNI Nagercoil Chapter</h4>
+                  <h4>BNI Kanya Chapter</h4>
                 </div>
                 <div className="footer-content">
                   <p>
@@ -137,7 +139,7 @@ const Footer1 = () => {
                     and surrounding areas.
                   </p>
                   <Link href="#" className="theme-btn white-border mt-4">
-                    Learn More
+                    Join Chapter Meeting
                   </Link>
                 </div>
               </div>

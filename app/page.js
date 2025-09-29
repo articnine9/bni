@@ -56,7 +56,7 @@ const page = () => {
                     className="experience-text wow fadeInUp"
                     data-wow-delay=".6s"
                   >
-                    <li>10+ Years of Networking</li>
+                    <li>3+ Years of Networking</li>
 
                     <li>
                       <i className="fas fa-star" />

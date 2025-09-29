@@ -2,7 +2,7 @@ import LeaderCard from "./LeaderCard";
 
 const leaders = [
   {
-    name: "Karthic",
+    name: "Karthick Gunabalan",
     role: "President",
     image: "assets/img/team/Karthic.jpg",
     delay: ".3s",
@@ -26,7 +26,7 @@ const leaders = [
     ],
   },
   {
-    name: "Tiraviyam",
+    name: "Thiraviyam Mani",
     role: "Secretary Treasurer",
     image: "assets/img/team/Tiraviyam.jpg",
     delay: ".5s",

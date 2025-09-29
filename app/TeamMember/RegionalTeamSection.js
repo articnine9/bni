@@ -3,18 +3,6 @@ import TeamCard from "./TeamCard";
 
 const regionalTeam = [
   {
-    name: "Krishnamoorthy",
-    role: "Mentor Coordinator",
-    image: "assets/img/team/Krishnamoorthy.jpg",
-    delay: ".3s",
-    socials: [
-      { icon: "fab fa-twitter", url: "#" },
-      { icon: "fab fa-facebook-f", url: "#" },
-      { icon: "fab fa-instagram", url: "#" },
-      { icon: "fab fa-linkedin-in", url: "#" },
-    ],
-  },
-  {
     name: "Ramkumar",
     role: "Chapter Growth Coordinator",
     image: "assets/img/team/Ramkumar.jpg",
@@ -31,30 +19,6 @@ const regionalTeam = [
     role: "Attendance",
     image: "assets/img/team/Nishwin.jpg",
     delay: ".7s",
-    socials: [
-      { icon: "fab fa-twitter", url: "#" },
-      { icon: "fab fa-facebook-f", url: "#" },
-      { icon: "fab fa-instagram", url: "#" },
-      { icon: "fab fa-linkedin-in", url: "#" },
-    ],
-  },
-  {
-    name: "Sethu Ramalingam",
-    role: "Retention",
-    image: "assets/img/team/Sethu Ramalingam.jpg",
-    delay: ".9s",
-    socials: [
-      { icon: "fab fa-twitter", url: "#" },
-      { icon: "fab fa-facebook-f", url: "#" },
-      { icon: "fab fa-instagram", url: "#" },
-      { icon: "fab fa-linkedin-in", url: "#" },
-    ],
-  },
-  {
-    name: "Surendran",
-    role: "Business Growth",
-    image: "assets/img/team/Surendran.jpg",
-    delay: "1.1s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
       { icon: "fab fa-facebook-f", url: "#" },
@@ -86,6 +50,43 @@ const regionalTeam = [
       { icon: "fab fa-linkedin-in", url: "#" },
     ],
   },
+  {
+    name: "Krishnamoorthy",
+    role: "Mentor Coordinator",
+    image: "assets/img/team/Krishnamoorthy.jpg",
+    delay: ".3s",
+    socials: [
+      { icon: "fab fa-twitter", url: "#" },
+      { icon: "fab fa-facebook-f", url: "#" },
+      { icon: "fab fa-instagram", url: "#" },
+      { icon: "fab fa-linkedin-in", url: "#" },
+    ],
+  },
+
+  {
+    name: "Sethu Ramalingam",
+    role: "Retention",
+    image: "assets/img/team/Sethu Ramalingam.jpg",
+    delay: ".9s",
+    socials: [
+      { icon: "fab fa-twitter", url: "#" },
+      { icon: "fab fa-facebook-f", url: "#" },
+      { icon: "fab fa-instagram", url: "#" },
+      { icon: "fab fa-linkedin-in", url: "#" },
+    ],
+  },
+  {
+    name: "Surendran",
+    role: "Business Growth",
+    image: "assets/img/team/Surendran.jpg",
+    delay: "1.1s",
+    socials: [
+      { icon: "fab fa-twitter", url: "#" },
+      { icon: "fab fa-facebook-f", url: "#" },
+      { icon: "fab fa-instagram", url: "#" },
+      { icon: "fab fa-linkedin-in", url: "#" },
+    ],
+  },
 ];
 
 export default function RegionalTeamSection() {
@@ -100,16 +101,16 @@ export default function RegionalTeamSection() {
               </span>
               <h2 className="wow fadeInUp" data-wow-delay=".3s">
                 Driving Growth <br />
-                With Our Expert Team
+                With Our Membership Committee Team
               </h2>
             </div>
             <p
               className="mt-3 mt-md-0 wow fadeInUp text-center"
               data-wow-delay=".5s"
             >
-              Meet our dedicated team members who are focused on expanding
+              Meet our dedicated team members, who are committed to expanding
               businesses, enhancing professional networks, and creating
-              impactful opportunities in Nagercoil.
+              impactful opportunities in Nagercoil and beyond.
             </p>
           </div>
 

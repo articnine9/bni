@@ -659,7 +659,8 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        123 Main Street, Nagercoil, India
+                        25/2, North Street, near Reliance Mall, Krishnam Coil,
+                        Nagercoil, Tamil Nadu 629001.
                       </a>
                     </div>
                   </li>
@@ -668,8 +669,8 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                       <i className="fal fa-envelope" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="mailto:info@bninagercoil.com">
-                        info@bninagercoil.com
+                      <a href="mailto:bnikanyamc@gmail.com">
+                        bnikanyamc@gmail.com
                       </a>
                     </div>
                   </li>
@@ -679,7 +680,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Mon-Fri, 09am - 05pm
+                        Tuesday : 7.30 AM Onwards
                       </a>
                     </div>
                   </li>
@@ -688,14 +689,16 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                       <i className="far fa-phone" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+919876543210">+91 98765 43210</a>
+                      <a href="tel:+919443979199">+91 94439 79199</a>
+                      <br />
+                      <a href="tel:+919677587777">+91 96775 87777</a>
                     </div>
                   </li>
                 </ul>
 
                 {/* Contact Button */}
                 <div className="header-button mt-4">
-                  <Link href="contact" className="theme-btn text-center">
+                  <Link href="#" className="theme-btn text-center">
                     Contact Us
                   </Link>
                 </div>
@@ -769,7 +772,7 @@ const Header1 = ({ single, menu }) => {
                   <div className="content">
                     <p>Make A Call</p>
                     <h4>
-                      <a href="tel:+91 98765 43210">+91 98765 43210</a>
+                      <a href="tel:+91 94439 79199">+91 94439 79199</a>
                     </h4>
                   </div>
                 </div>

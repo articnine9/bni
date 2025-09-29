@@ -14,7 +14,7 @@ const FunFactCounter = ({ style }) => {
             </span>
           </h2>
           <h6>Members</h6>
-          <p>Join #Team BNI Kanya, changing Nagercoil's business landscape.</p>
+          <p>Join #TeamBNIKanya, changing Nagercoil's business landscape.</p>
         </div>
       </div>
       <div
@@ -26,6 +26,7 @@ const FunFactCounter = ({ style }) => {
             <span className="count">
               <Counter end={9452} />
             </span>
+            +
           </h2>
           <h6>Referrals</h6>
           <p>
@@ -43,7 +44,7 @@ const FunFactCounter = ({ style }) => {
             <span className="count">
               <Counter end={63} />
             </span>
-            Crore+
+            Cr+
           </h2>
           <h6>Business Generated</h6>
           <p>
@@ -60,6 +61,7 @@ const FunFactCounter = ({ style }) => {
             <span className="count">
               <Counter end={1374} />
             </span>
+            +
           </h2>
           <h6>Testimonials</h6>
           <p>Positive feedback from our growing community of professionals.</p>
