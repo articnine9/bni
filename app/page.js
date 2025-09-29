@@ -68,7 +68,7 @@ const page = () => {
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                       <div className="about-image">
                         <img
-                          src="assets/img/about/01.jpg"
+                          src="assets/img/about/1.jpg"
                           alt="BNI Kanya Team Meeting"
                         />
                       </div>
@@ -76,7 +76,7 @@ const page = () => {
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".4s">
                       <div className="about-image">
                         <img
-                          src="assets/img/about/02.jpg"
+                          src="assets/img/about/2.jpg"
                           alt="BNI Kanya Networking Event"
                         />
                       </div>

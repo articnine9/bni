@@ -4,7 +4,7 @@ const teamMembers = [
   {
     name: "Mohamed Riaz",
     role: "Executive Director - BNI TNT",
-    image: "assets/img/team/07.jpg",
+    image: "assets/img/team/Mohamed Riaz.jpg",
     delay: ".3s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -16,7 +16,7 @@ const teamMembers = [
   {
     name: "Max Prince",
     role: "Director Consultant",
-    image: "assets/img/team/07.jpg",
+    image: "assets/img/team/Max Prince.jpg",
     delay: ".5s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -28,7 +28,7 @@ const teamMembers = [
   {
     name: "Rama Doss",
     role: "Support Ambassador",
-    image: "assets/img/team/07.jpg",
+    image: "assets/img/team/Rama Doss.jpg",
     delay: ".5s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
