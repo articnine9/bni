@@ -28,11 +28,11 @@ const Menu = ({ single, menu }) => {
   const singleMenu = [
     { id: 1, href: "/", title: "Home 1" }, // Main page
     { id: 2, href: "/#", title: "Members" },
-    { id: 3, href: "/#", title: "Leadership" },
-    { id: 4, href: "/#", title: "Visitors" },
+    { id: 3, href: "/leadership", title: "Leadership" },
+    { id: 4, href: "/visitors", title: "Visitors" },
     { id: 5, href: "/#", title: "Albums" },
-    { id: 6, href: "/#", title: "About" },
-    { id: 7, href: "/#", title: "Contact" },
+    { id: 6, href: "/about", title: "About" },
+    { id: 7, href: "/contact", title: "Contact" },
   ];
 
   return (
@@ -322,7 +322,7 @@ const Menu = ({ single, menu }) => {
               <Link href="#">Members</Link>
             </li>
             <li>
-              <Link href="#">
+              <Link href="/leadership">
                 Leadership
                 {/* <i className="fas fa-angle-down" /> */}
               </Link>
@@ -336,7 +336,7 @@ const Menu = ({ single, menu }) => {
               </ul> */}
             </li>
             <li className="has-dropdown">
-              <Link href="#">
+              <Link href="/visitors">
                 Visitors
                 {/* <i className="fas fa-angle-down" /> */}
               </Link>
@@ -392,10 +392,10 @@ const Menu = ({ single, menu }) => {
               </ul> */}
             </li>
             <li>
-              <Link href="#">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li>
-              <Link href="#">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
@@ -418,7 +418,7 @@ const MobileMenu = ({ single, menu }) => {
   const singleMenu = menu
     ? menu
     : [
-        { id: 1, href: "#", title: "About" },
+        { id: 1, href: "/about", title: "About" },
         { id: 2, href: "#", title: "Services" },
         { id: 3, href: "#", title: "Team" },
         { id: 4, href: "#", title: "Blog" },
@@ -483,7 +483,7 @@ const MobileMenu = ({ single, menu }) => {
             ) : (
               <Fragment>
                 <li>
-                  <Link href="#">About</Link>
+                  <Link href="/about">About</Link>
                 </li>
                 <li>
                   <a href="#" onClick={() => activeMenuSet("Services")}>
@@ -507,7 +507,7 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                 </li>
                 <li className="has-dropdown">
-                  <a href="#" onClick={() => activeMenuSet("Pages")}>
+                  <a href="/leadership" onClick={() => activeMenuSet("Pages")}>
                     Leadership
                     {/* <i className="fas fa-angle-down" /> */}
                   </a>
@@ -573,7 +573,7 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" onClick={() => activeMenuSet("Blog")}>
+                  <a href="/visitors" onClick={() => activeMenuSet("Blog")}>
                     Visitors
                     {/* <i className="fas fa-angle-down" /> */}
                   </a>
@@ -597,10 +597,10 @@ const MobileMenu = ({ single, menu }) => {
                   <Link href="#">Albums</Link>
                 </li>
                 <li className="mean-last">
-                  <Link href="#">About</Link>
+                  <Link href="/about">About</Link>
                 </li>
                 <li className="mean-last">
-                  <Link href="#">Contact</Link>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </Fragment>
             )}
@@ -698,7 +698,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
 
                 {/* Contact Button */}
                 <div className="header-button mt-4">
-                  <Link href="#" className="theme-btn text-center">
+                  <Link href="/contact" className="theme-btn text-center">
                     Contact Us
                   </Link>
                 </div>
@@ -827,7 +827,7 @@ const Header2 = ({ single }) => {
               </div>
               <div className="header-right d-flex justify-content-end align-items-center">
                 <div className="header-button">
-                  <Link href="contact" className="theme-btn bg-2">
+                  <Link href="/contact" className="theme-btn bg-2">
                     Get A Quote
                   </Link>
                 </div>
