@@ -27,7 +27,7 @@ export default Header;
 const Menu = ({ single, menu }) => {
   const singleMenu = [
     { id: 1, href: "/", title: "Home 1" }, // Main page
-    { id: 2, href: "/#", title: "Members" },
+    { id: 2, href: "/members", title: "Members" },
     { id: 3, href: "/leadership", title: "Leadership" },
     { id: 4, href: "/visitors", title: "Visitors" },
     { id: 5, href: "/#", title: "Albums" },
@@ -319,7 +319,7 @@ const Menu = ({ single, menu }) => {
               </ul> */}
             </li>
             <li>
-              <Link href="#">Members</Link>
+              <Link href="/members">Members</Link>
             </li>
             <li>
               <Link href="/leadership">
@@ -486,7 +486,7 @@ const MobileMenu = ({ single, menu }) => {
                   <Link href="/about">About</Link>
                 </li>
                 <li>
-                  <a href="#" onClick={() => activeMenuSet("Services")}>
+                  <a href="/members" onClick={() => activeMenuSet("Services")}>
                     Members
                     <i className="fas fa-angle-down" />
                   </a>
@@ -705,16 +705,17 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
 
                 {/* Social Icons */}
                 <div className="social-icon d-flex align-items-center">
-                  <a href="#">
+                  <a href="https://www.facebook.com/bnikanya/" target="_blank">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
+
+                  <a href="https://instagram.com/bnikanya/" target="_blank">
+                    <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
-                    <i className="fab fa-youtube" />
-                  </a>
-                  <a href="#">
+                  <a
+                    href="linkedin.com/in/bni-kanya-292346375?originalSubdomain=in"
+                    target="_blank"
+                  >
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>

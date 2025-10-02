@@ -91,7 +91,7 @@ const regionalTeam = [
 
 export default function RegionalTeamSection() {
   return (
-    <section className="team-section fix section-padding">
+    <section className="team-section fix section-padding bg-team">
       <div className="container">
         <div className="row g-4 align-items-center">
           <div className="col-lg-12">

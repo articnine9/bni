@@ -2,52 +2,15 @@
 import { useState, useEffect } from "react";
 import FunFactCounter from "@/components/FunFactCounter";
 import TeamSection from "@/app/TeamMember/RegionalTeam";
+import MemberList from "@/app/TeamMember/MembersList";
 import LeadershipSection from "@/app/TeamMember/LeadershipSection";
 import RegionalTeamSection from "@/app/TeamMember/RegionalTeamSection";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import BNICTA from "@/components/BNIcta";
 import HeroSlider from "@/components/HeroSlider";
+import teamMembers from "@/data/memberListHome";
 const page = () => {
-  const [showDialog, setShowDialog] = useState(false);
-  useEffect(() => {
-    // Show dialog when page loads
-    setShowDialog(true);
-  }, []);
-  if (showDialog) {
-    return (
-      <div className="fixed inset-0 z-50 bg-black/70">
-        <div
-          style={{
-            height: "100vh",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-          className="bg-white rounded-2xl shadow-2xl p-8 w-[90%] max-w-md text-center relative mx-auto"
-        >
-          {/* ✅ Image here */}
-          <img
-            src="assets/img/BNI Kanya.jpg" // <-- replace with your image path or URL
-            alt="BNI Kanya Logo"
-            className="  mx-auto"
-            style={{
-              width: "800px",
-            }}
-          />
-
-          <button
-            onClick={() => setShowDialog(false)}
-            className="text-gray-500 hover:text-black mt-3"
-          >
-            Close & Continue →
-          </button>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <NextLayout header={1}>
       {/* Modal Dialog */}
@@ -211,6 +174,7 @@ const page = () => {
       <LeadershipSection />
 
       <RegionalTeamSection />
+      <MemberList teamMembers={teamMembers} />
     </NextLayout>
   );
 };

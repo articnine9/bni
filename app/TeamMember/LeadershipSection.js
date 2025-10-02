@@ -41,7 +41,7 @@ const leaders = [
 
 export default function LeadershipSection() {
   return (
-    <section className="team-section fix section-padding bg-team">
+    <section className="team-section fix section-padding ">
       <div className="container">
         <div className="col-lg-12">
           <div className="row g-4 align-items-center">

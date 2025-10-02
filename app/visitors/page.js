@@ -1,144 +1,148 @@
+"use client";
+import { useState } from "react";
 import Breadcrumb from "@/components/Breadcrumb";
 import FunFactCounter from "@/components/FunFactCounter";
 import BNICTA from "@/components/BNIcta";
 import WhyChooseUs from "@/components/whyChooseUs";
-import MissionNVission from "@/components/missionnvission";
-import { WorkingProcess2 } from "@/components/WorkingProcess";
+import VisitorJoinDetails from "@/components/visitorJoinDetails";
+import { VisitorWhyJoin } from "@/components/visitorWhyJoin";
 import NextLayout from "@/layouts/NextLayout";
-import JoinTeam from "@/components/JoinTeam";
-import Link from "next/link";
-const page = () => {
+import VisitorsJoin from "@/components/visitorJoin";
+
+const VisitorsPage = () => {
   return (
     <NextLayout header={1}>
-      {/*<< Breadcrumb Section Start >>*/}
-      <Breadcrumb />
-      {/* About Section Start */}
-      <section className="about-section fix section-padding pb-0">
-        <div className="container">
-          <div className="about-wrapper style-2">
-            <div className="row g-4 align-items-center">
-              <div className="col-lg-6">
-                <div className="about-content ms-0 style-about">
-                  <div className="section-title">
-                    <span className="sub-content wow fadeInUp">
-                      {/* <img src="assets/img/bale.png" alt="img" /> */}
-                      About Us
-                    </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      About BNI
-                    </h2>
-                  </div>
-                  <p
-                    className="mt-3 mt-md-0 wow fadeInUp mb-3"
-                    data-wow-delay=".5s"
-                  >
-                    <b>BNI (Business Network International),</b> founded in 1985
-                    by Dr. Ivan Misner, has grown over the past 40 years into
-                    the world’s largest business networking organization.
-                  </p>
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    BNI’s mission is to empower its Members to expand their
-                    businesses through a structured, positive, and professional
-                    referral marketing program—designed to foster long-term,
-                    meaningful relationships with trusted business
-                    professionals.
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
-                <div className="about-image-3">
-                  <img src="assets/img/about/1.png" alt="img" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* About Section Start */}
-      <section className="about-section fix section-padding pt-80">
-        <div className="container">
-          <div className="about-wrapper style-2">
-            <div className="row g-4 align-items-center">
-              <div className="col-lg-6 wow  fadeInUp" data-wow-delay=".3s">
-                <div className="about-image-3">
-                  <img src="assets/img/about/3.png" alt="img" />
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="about-content ms-0 style-about">
-                  <div className="section-title">
-                    {/* <span className="sub-content wow fadeInUp">
-                      About BNI Kanya
-                    </span> */}
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      About BNI Kanya
-                    </h2>
-                  </div>
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    BNI Kanya is Nagercoil's premier business networking
-                    chapter, dedicated to helping local professionals and
-                    entrepreneurs grow their businesses through quality
-                    referrals and strategic partnerships. As part of the global
-                    BNI network, we bring together the city's most committed
-                    business leaders.
-                  </p>
-                  <ul className="about-list wow fadeInUp" data-wow-delay=".3s">
-                    <li>
-                      <i className="fas fa-check" />
-                      Generate qualified business referrals consistently
-                    </li>
-                    <li>
-                      <i className="fas fa-check" />
-                      Build valuable long-term business relationships
-                    </li>
-                    <li>
-                      <i className="fas fa-check" />
-                      Access exclusive business development opportunities
-                    </li>
-                    <li>
-                      <i className="fas fa-check" />
-                      Increase your business visibility in Nagercoil
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="funfact-section section-padding pt-0">
+      {/* Breadcrumb */}
+      <Breadcrumb pageName="Visitors" />
+
+      {/* Sections */}
+      <VisitorWhyJoin />
+      <BNICTA />
+      <VisitorsJoin />
+      <VisitorJoinDetails />
+
+      {/* Modal Popup */}
+      <section className="planning-section fix section-padding">
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
-              {/* <img src="assets/img/bale.png" alt="img" /> */}
-              BNI Kanya Achievements
+              Visitor Enquiry Form
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              Our Chapter's Impressive Statistics
+              Attend BNI Kanya meeting
             </h2>
-            <p className="wow fadeInUp mt-3" data-wow-delay=".4s">
-              Join the most successful business networking chapter in Nagercoil
-            </p>
           </div>
-          <FunFactCounter />
+          <div className="row">
+            <div className="col-lg-12">
+              {/* Modal Header */}
+
+              {/* Form */}
+              <form
+                action="#"
+                id="contact-form"
+                method="POST"
+                className="contact-form-items"
+              >
+                <div className="row g-4">
+                  {/* Your Name */}
+                  <div className="col-lg-6">
+                    <div className="form-clt">
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  {/* Business Name */}
+                  <div className="col-lg-6">
+                    <div className="form-clt">
+                      <input
+                        type="text"
+                        name="businessName"
+                        id="businessName"
+                        placeholder="Business Name"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  {/* Email */}
+                  <div className="col-lg-6">
+                    <div className="form-clt">
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  {/* Phone Number */}
+                  <div className="col-lg-6">
+                    <div className="form-clt">
+                      <input
+                        type="tel"
+                        name="phone"
+                        id="phone"
+                        placeholder="Phone Number"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  {/* Preferred Meeting Type */}
+                  <div className="col-lg-12">
+                    <div className="form-clt">
+                      <select
+                        name="meetingType"
+                        id="meetingType"
+                        className="form-select"
+                        required
+                      >
+                        <option value="">Preferred Meeting Type</option>
+                        <option value="offline">Offline</option>
+                        <option value="online">Online</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  {/* Your Message */}
+                  <div className="col-lg-12">
+                    <div className="form-clt">
+                      <textarea
+                        name="message"
+                        id="message"
+                        placeholder="Your Message (Optional)"
+                        rows="4"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Submit Button */}
+                  <div className="col-lg-6">
+                    <button type="submit" className="theme-btn">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              {/* Note */}
+              <p className="text-sm text-gray-500 text-center mt-3">
+                We will get back to you within 24 hours.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
-      <WhyChooseUs />
-
-      {/* Team Section Start */}
-      {/* <Team /> */}
-      {/* Funfact Section Start */}
-      {/* <section className="funfact-section-2 section-padding pt-0">
-        <div className="container">
-          <FunFactCounter style={2} />
-        </div>
-      </section> */}
-      {/* Working Process Section Start */}
-      <WorkingProcess2 />
-      <BNICTA />
-      <MissionNVission />
-      <JoinTeam />
     </NextLayout>
   );
 };
-export default page;
+
+export default VisitorsPage;

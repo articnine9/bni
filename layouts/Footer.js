@@ -32,16 +32,20 @@ const Footer1 = () => {
                     referral-based opportunities.
                   </p>
                   <div className="social-icon d-flex align-items-center">
-                    <a href="#">
+                    <a
+                      href="https://www.facebook.com/bnikanya/"
+                      target="_blank"
+                    >
                       <i className="fab fa-facebook-f" />
                     </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
+
+                    <a href="https://instagram.com/bnikanya/" target="_blank">
                       <i className="fab fa-instagram" />
                     </a>
-                    <a href="#">
+                    <a
+                      href="linkedin.com/in/bni-kanya-292346375?originalSubdomain=in"
+                      target="_blank"
+                    >
                       <i className="fab fa-linkedin-in" />
                     </a>
                   </div>
