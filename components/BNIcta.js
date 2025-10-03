@@ -11,7 +11,7 @@ const BNICTA = () => {
             >
               <Link href="/">
                 <img
-                  src="assets/img/logo/bni-logo-white.png"
+                  src="/assets/img/logo/bni-logo-white.png"
                   alt="logo-img"
                   className="w-100"
                 />
@@ -22,7 +22,7 @@ const BNICTA = () => {
               data-wow-delay=".5s"
             >
               <h2>Networking Fuels Nagercoil Business.</h2>
-              <Link href="#" className="theme-btn white-border">
+              <Link href="/contact" className="theme-btn white-border">
                 Get Started <i className="far fa-arrow-right" />
               </Link>
             </div>

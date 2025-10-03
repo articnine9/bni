@@ -1,8 +1,11 @@
 const teamMembers = [
   {
     name: "Agneeswaran Vallinayagam",
-    role: "Member",
-    image: "assets/img/team/Agneeswaran-Vallinayagam.jpg",
+    url: "/members/agneeswaran-vallinayagam",
+    role: "Generator",
+    company: "LINGAM & CO",
+    contact: "+91 89390 84819",
+    image: "/assets/img/team/Agneeswaran-Vallinayagam.jpg",
     delay: ".3s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -13,8 +16,11 @@ const teamMembers = [
   },
   {
     name: "Ahamed Zameel",
-    role: "Member",
-    image: "assets/img/team/07.jpg",
+    url: "/members/ahamed-zameel",
+    role: "Honey",
+    company: "HUNNUBI",
+    contact: "+91 88255 74979",
+    image: "/assets/img/team/07.jpg",
     delay: ".5s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -25,8 +31,11 @@ const teamMembers = [
   },
   {
     name: "Ajin Mano",
-    role: "Member",
-    image: "assets/img/team/07.jpg",
+    url: "/members/ajin-mano",
+    role: "Industrial Hydraulics",
+    company: "HYDRO TORK",
+    contact: "+91 73733 63731",
+    image: "/assets/img/team/07.jpg",
     delay: ".7s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -37,8 +46,11 @@ const teamMembers = [
   },
   {
     name: "Ajith Kumar",
-    role: "Member",
-    image: "assets/img/team/07.jpg",
+    url: "/members/ajith-kumar",
+    role: "Metallurgy",
+    company: "MATRICS SUBSTANCE PVT LTD",
+    contact: "+91 94448 92080",
+    image: "/assets/img/team/07.jpg",
     delay: ".9s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -49,8 +61,11 @@ const teamMembers = [
   },
   {
     name: "Alagendra Nithi",
-    role: "Member",
-    image: "assets/img/team/07.jpg",
+    url: "/members/alagendra-nithi",
+    role: "Gas Agency",
+    company: "KAMARAJ INDANE GAS AGENCIES",
+    contact: "+91 99409 41422",
+    image: "/assets/img/team/07.jpg",
     delay: ".3s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -61,10 +76,11 @@ const teamMembers = [
   },
   {
     name: "Allwin.Y",
-    role: "Plumbing", // updated role
-    company: "ASHLYN ELECTRICAL & ENGINEERING", // new key
-    contact: "+91 90034 00860", // new key
-    image: "assets/img/team/Allwin-Y.jpg",
+    url: "/members/allwin-y",
+    role: "Plumbing",
+    company: "ASHLYN ELECTRICAL & ENGINEERING",
+    contact: "+91 90034 00860",
+    image: "/assets/img/team/Allwin-Y.jpg",
     delay: ".5s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -73,11 +89,13 @@ const teamMembers = [
       { icon: "fab fa-linkedin-in", url: "#" },
     ],
   },
-
   {
     name: "Arun Chelladurai",
-    role: "Member",
-    image: "assets/img/team/07.jpg",
+    url: "/members/arun-chelladurai",
+    role: "Event Management",
+    company: "RED FRAME EVENTS",
+    contact: "+91 82204 85060",
+    image: "/assets/img/team/07.jpg",
     delay: ".7s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -88,9 +106,12 @@ const teamMembers = [
   },
   {
     name: "Arun Nagarajan",
-    role: "Member",
-    image: "assets/img/team/Arun-Nagarajan.jpg",
+    url: "/members/arun-nagarajan",
+    role: "CCTV",
+    image: "/assets/img/team/Arun-Nagarajan.jpg",
     delay: ".9s",
+    company: "CHIP NET SOLUTIONS",
+    contact: "+91 99941 74504",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
       { icon: "fab fa-facebook-f", url: "#" },

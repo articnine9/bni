@@ -745,14 +745,14 @@ const Header1 = ({ single, menu }) => {
               <div className="sticky-logo">
                 <Link href="/">
                   <img
-                    src="assets/img/logo/bni-logo.png"
+                    src="/assets/img/logo/bni-logo.png"
                     alt="logo-img"
                     className="logo-1 logoShap"
                   />
                 </Link>
                 <Link href="/">
                   <img
-                    src="assets/img/logo/bni-logo.png"
+                    src="/assets/img/logo/bni-logo.png"
                     alt="logo-img "
                     className="logo-2 logoShap"
                   />
