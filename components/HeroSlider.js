@@ -152,7 +152,7 @@ const HeroSlider = () => {
 
                     <div className="col-lg-12 d-flex justify-content-center mt-5 g-5 gap-5">
                       <div className="hero-button">
-                        <Link href="/" className="theme-btn hover-white">
+                        <Link href="/contact" className="theme-btn hover-white">
                           Get Started Now <i className="far fa-arrow-right" />
                         </Link>
                       </div>

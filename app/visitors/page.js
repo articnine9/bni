@@ -10,6 +10,47 @@ import NextLayout from "@/layouts/NextLayout";
 import VisitorsJoin from "@/components/visitorJoin";
 
 const VisitorsPage = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    businessName: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+  const [status, setStatus] = useState("");
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
+
+    try {
+      const res = await fetch("/api/sendContact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        setStatus("✅ Your enquiry has been sent!");
+        setFormData({
+          name: "",
+          businessName: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+      } else {
+        setStatus("❌ Failed to send. Try again.");
+      }
+    } catch (error) {
+      console.error(error);
+      setStatus("❌ Something went wrong.");
+    }
+  };
   return (
     <NextLayout header={1}>
       {/* Breadcrumb */}
@@ -38,9 +79,8 @@ const VisitorsPage = () => {
 
               {/* Form */}
               <form
-                action="#"
+                onSubmit={handleSubmit}
                 id="contact-form"
-                method="POST"
                 className="contact-form-items"
               >
                 <div className="row g-4">
@@ -50,8 +90,9 @@ const VisitorsPage = () => {
                       <input
                         type="text"
                         name="name"
-                        id="name"
                         placeholder="Your Name"
+                        value={formData.name}
+                        onChange={handleChange}
                         required
                       />
                     </div>
@@ -63,8 +104,9 @@ const VisitorsPage = () => {
                       <input
                         type="text"
                         name="businessName"
-                        id="businessName"
                         placeholder="Business Name"
+                        value={formData.businessName}
+                        onChange={handleChange}
                         required
                       />
                     </div>
@@ -76,8 +118,9 @@ const VisitorsPage = () => {
                       <input
                         type="email"
                         name="email"
-                        id="email"
                         placeholder="Email"
+                        value={formData.email}
+                        onChange={handleChange}
                         required
                       />
                     </div>
@@ -89,26 +132,11 @@ const VisitorsPage = () => {
                       <input
                         type="tel"
                         name="phone"
-                        id="phone"
                         placeholder="Phone Number"
+                        value={formData.phone}
+                        onChange={handleChange}
                         required
                       />
-                    </div>
-                  </div>
-
-                  {/* Preferred Meeting Type */}
-                  <div className="col-lg-12">
-                    <div className="form-clt">
-                      <select
-                        name="meetingType"
-                        id="meetingType"
-                        className="form-select"
-                        required
-                      >
-                        <option value="">Preferred Meeting Type</option>
-                        <option value="offline">Offline</option>
-                        <option value="online">Online</option>
-                      </select>
                     </div>
                   </div>
 
@@ -117,9 +145,10 @@ const VisitorsPage = () => {
                     <div className="form-clt">
                       <textarea
                         name="message"
-                        id="message"
                         placeholder="Your Message (Optional)"
                         rows="4"
+                        value={formData.message}
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -137,6 +166,9 @@ const VisitorsPage = () => {
               <p className="text-sm text-gray-500 text-center mt-3">
                 We will get back to you within 24 hours.
               </p>
+              {status && (
+                <p className="text-center mt-3 text-gray-600">{status}</p>
+              )}
             </div>
           </div>
         </div>

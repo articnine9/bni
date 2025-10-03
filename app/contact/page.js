@@ -1,7 +1,43 @@
+"use client";
+import { useState } from "react";
 import Breadcrumb from "@/components/Breadcrumb";
 import NextLayout from "@/layouts/NextLayout";
 
-const page = () => {
+const ContactPage = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+  const [status, setStatus] = useState("");
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
+
+    try {
+      const res = await fetch("/api/sendContact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        setStatus("✅ Your message has been sent!");
+        setFormData({ name: "", email: "", phone: "", message: "" });
+      } else {
+        setStatus("❌ Failed to send. Try again.");
+      }
+    } catch (err) {
+      console.error(err);
+      setStatus("❌ Something went wrong.");
+    }
+  };
   return (
     <NextLayout header={1}>
       <Breadcrumb pageName="Contact Us" />
@@ -83,9 +119,8 @@ const page = () => {
                 >
                   <h3>Send Us a Message</h3>
                   <form
-                    action="#"
                     id="contact-form"
-                    method="POST"
+                    onSubmit={handleSubmit}
                     className="contact-form-items"
                   >
                     <div className="row g-4">
@@ -94,8 +129,10 @@ const page = () => {
                           <input
                             type="text"
                             name="name"
-                            id="name"
                             placeholder="Full Name"
+                            value={formData.name}
+                            onChange={handleChange}
+                            required
                           />
                         </div>
                       </div>
@@ -104,8 +141,10 @@ const page = () => {
                           <input
                             type="text"
                             name="phone"
-                            id="phone"
                             placeholder="Phone"
+                            value={formData.phone}
+                            onChange={handleChange}
+                            required
                           />
                         </div>
                       </div>
@@ -114,8 +153,10 @@ const page = () => {
                           <input
                             type="email"
                             name="email"
-                            id="email2"
                             placeholder="Your Email"
+                            value={formData.email}
+                            onChange={handleChange}
+                            required
                           />
                         </div>
                       </div>
@@ -123,9 +164,10 @@ const page = () => {
                         <div className="form-clt">
                           <textarea
                             name="message"
-                            id="message"
                             placeholder="Your Message"
-                            defaultValue={""}
+                            value={formData.message}
+                            onChange={handleChange}
+                            required
                           />
                         </div>
                       </div>
@@ -136,6 +178,7 @@ const page = () => {
                       </div>
                     </div>
                   </form>
+                  {status && <p className="mt-3 text-center">{status}</p>}
                 </div>
               </div>
               {/* End Right Side */}
@@ -161,4 +204,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ContactPage;

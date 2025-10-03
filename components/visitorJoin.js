@@ -10,32 +10,11 @@ const joinUsData = {
       heading: "Attend Our Weekly Meeting",
       text: "Join us every Tuesday morning at 7:30 AM and witness the power of structured networking.",
     },
+
     {
       id: 2,
-      heading: "Offline & Online Options",
-      text: "Participate conveniently — either in person or via Zoom, depending on your preference.",
-    },
-    {
-      id: 3,
       heading: "Meet & Network",
       text: "Introduce your business, connect with members, and build meaningful business relationships.",
-    },
-  ],
-  howToJoin: [
-    {
-      id: 1,
-      heading: "Step 1: Fill the Visitor Form",
-      text: "Submit your details to let us know you’re interested in attending.",
-    },
-    {
-      id: 2,
-      heading: "Step 2: Receive an Invitation",
-      text: "Our team will contact you to confirm your visit and guide you.",
-    },
-    {
-      id: 3,
-      heading: "Step 3: Attend & Network",
-      text: "Join the meeting, introduce your business, and grow your network.",
     },
   ],
 };

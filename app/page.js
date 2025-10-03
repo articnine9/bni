@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import FunFactCounter from "@/components/FunFactCounter";
 import TeamSection from "@/app/TeamMember/RegionalTeam";
-import MemberList from "@/app/TeamMember/MembersList";
+import HomeMemberList from "@/app/TeamMember/HomeMember";
 import LeadershipSection from "@/app/TeamMember/LeadershipSection";
 import RegionalTeamSection from "@/app/TeamMember/RegionalTeamSection";
 import NextLayout from "@/layouts/NextLayout";
@@ -134,7 +134,7 @@ const page = () => {
                     data-wow-delay=".5s"
                   >
                     <div className="about-button">
-                      <Link href="#" className="theme-btn">
+                      <Link href="/about" className="theme-btn">
                         Learn More About BNI
                         <i className="far fa-arrow-right" />
                       </Link>
@@ -174,7 +174,7 @@ const page = () => {
       <LeadershipSection />
 
       <RegionalTeamSection />
-      <MemberList teamMembers={teamMembers} />
+      <HomeMemberList teamMembers={teamMembers} />
     </NextLayout>
   );
 };

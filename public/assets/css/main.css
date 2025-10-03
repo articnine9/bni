@@ -10521,7 +10521,7 @@ p.sticky-label {
 }
 
 .project-card-items {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .project-card-items .project-image {
   max-width: 410px;
@@ -11044,7 +11044,8 @@ p.sticky-label {
   gap: 10px;
   margin-top: 30px;
 }
-.footer-widgets-wrapper .single-footer-widget .footer-content .social-icon a,  .Footersocial-icon a{
+.footer-widgets-wrapper .single-footer-widget .footer-content .social-icon a,
+.Footersocial-icon a {
   width: 40px;
   height: 40px;
   text-align: center;
@@ -11056,11 +11057,15 @@ p.sticky-label {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+.Footersocial-icon {
+  gap: 10px;
+}
 .footer-widgets-wrapper
   .single-footer-widget
   .footer-content
   .social-icon
-  a:hover, .Footersocial-icon a:hover {
+  a:hover,
+.Footersocial-icon a:hover {
   background-color: var(--theme);
   color: var(--white);
 }

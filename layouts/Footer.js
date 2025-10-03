@@ -31,24 +31,6 @@ const Footer1 = () => {
                     through structured networking, professional growth, and
                     referral-based opportunities.
                   </p>
-                  <div className="social-icon d-flex align-items-center">
-                    <a
-                      href="https://www.facebook.com/bnikanya/"
-                      target="_blank"
-                    >
-                      <i className="fab fa-facebook-f" />
-                    </a>
-
-                    <a href="https://instagram.com/bnikanya/" target="_blank">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a
-                      href="linkedin.com/in/bni-kanya-292346375?originalSubdomain=in"
-                      target="_blank"
-                    >
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -64,16 +46,16 @@ const Footer1 = () => {
                 </div>
                 <ul className="list-items">
                   <li>
-                    <Link href="#">Popular Services</Link>
+                    <Link href="/members">Members</Link>
                   </li>
                   <li>
-                    <Link href="#">Team Members</Link>
+                    <Link href="/leadership">Leadership</Link>
                   </li>
                   <li>
-                    <Link href="#">Contact Us</Link>
+                    <Link href="/visitors">Visitors</Link>
                   </li>
                   <li>
-                    <Link href="#">Membership Packages</Link>
+                    <Link href="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -142,7 +124,7 @@ const Footer1 = () => {
                     weekly networking meetings for professionals in Nagercoil
                     and surrounding areas.
                   </p>
-                  <Link href="#" className="theme-btn white-border mt-4">
+                  <Link href="/contact" className="theme-btn white-border mt-4">
                     Join Chapter Meeting
                   </Link>
                 </div>
@@ -155,17 +137,21 @@ const Footer1 = () => {
         <div className="footer-bottom">
           <div className="container">
             <div className="footer-wrapper d-flex align-items-center justify-content-between">
-              <ul className="footer-menu wow fadeInUp" data-wow-delay=".2s">
-                <li>
-                  <Link href="#">FAQs</Link>
-                </li>
-                <li>
-                  <Link href="#">Company</Link>
-                </li>
-                <li>
-                  <Link href="#">Privacy</Link>
-                </li>
-              </ul>
+              <div className="social-icon d-flex align-items-center Footersocial-icon">
+                <a href="https://www.facebook.com/bnikanya/" target="_blank">
+                  <i className="fab fa-facebook-f" />
+                </a>
+
+                <a href="https://instagram.com/bnikanya/" target="_blank">
+                  <i className="fab fa-instagram" />
+                </a>
+                <a
+                  href="linkedin.com/in/bni-kanya-292346375?originalSubdomain=in"
+                  target="_blank"
+                >
+                  <i className="fab fa-linkedin-in" />
+                </a>
+              </div>
               <a
                 href="#"
                 id="scrollUp"

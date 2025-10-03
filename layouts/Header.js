@@ -30,7 +30,7 @@ const Menu = ({ single, menu }) => {
     { id: 2, href: "/members", title: "Members" },
     { id: 3, href: "/leadership", title: "Leadership" },
     { id: 4, href: "/visitors", title: "Visitors" },
-    { id: 5, href: "/#", title: "Albums" },
+    { id: 5, href: "/albums", title: "Albums" },
     { id: 6, href: "/about", title: "About" },
     { id: 7, href: "/contact", title: "Contact" },
   ];
@@ -378,7 +378,7 @@ const Menu = ({ single, menu }) => {
               </ul> */}
             </li>
             <li>
-              <Link href="#">
+              <Link href="/albums">
                 Albums
                 {/* <i className="fas fa-angle-down" /> */}
               </Link>
@@ -594,7 +594,7 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                 </li>
                 <li className="mean-last">
-                  <Link href="#">Albums</Link>
+                  <Link href="/albums">Albums</Link>
                 </li>
                 <li className="mean-last">
                   <Link href="/about">About</Link>
