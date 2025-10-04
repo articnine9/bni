@@ -15,21 +15,21 @@ const HeroSlider = () => {
   const heroSlides = [
     {
       id: 1,
-      image: "assets/img/hero/1.jpg",
+      image: "assets/img/banner/1.jpg",
       title: "Powerful Business Networking",
       subtitle:
         "BNI Kanya helps local professionals grow through referrals and partnerships.",
     },
     {
       id: 2,
-      image: "assets/img/hero/1.jpg",
+      image: "assets/img/banner/2.jpg",
       title: "Qualified Business Referrals",
       subtitle:
         "Build long-term relationships and access exclusive opportunities.",
     },
     {
       id: 3,
-      image: "assets/img/hero/1.jpg",
+      image: "assets/img/banner/3.jpg",
       title: "Boost Business Visibility",
       subtitle:
         "Increase your presence and connect with top business leaders in Nagercoil.",
@@ -116,10 +116,10 @@ const HeroSlider = () => {
               <div className="container">
                 <div className="row g-4 justify-content-between text-center">
                   <div className="col-lg-12">
-                    <div className="hero-content">
+                    {/* <div className="hero-content">
                       <h1 className="wow fadeInUp" data-wow-delay=".2s">
                         {slide.title} <br />
-                        {/* {slide.subtitle} */}
+                       
                       </h1>
                       <p
                         className="text-white wow fadeInUp mt-4 text-white fs-4"
@@ -132,31 +132,31 @@ const HeroSlider = () => {
                         style={{ display: "flex", justifyContent: "center" }}
                         data-wow-delay=".4s"
                       ></div>
-                    </div>
+                    </div> */}
 
                     <div className="col-lg-12 d-flex justify-content-center mt-5 g-5 gap-5">
                       {/* Left Award */}
-                      <div className="award-text d-flex align-items-center text-white">
+                      {/* <div className="award-text d-flex align-items-center text-white">
                         <i className="fas fa-trophy me-2 p-3 bg-theme text-white rounded-circle" />
                         <span>
                           Highest Referrals Passed & Seat Value in the Region
                         </span>
-                      </div>
+                      </div> */}
 
                       {/* Right Award */}
-                      <div className="award-text d-flex align-items-center text-white">
+                      {/* <div className="award-text d-flex align-items-center text-white">
                         <i className="fas fa-star me-2 p-3 bg-theme text-white rounded-circle" />
                         <span>Best Digital Presence Award Winner</span>
-                      </div>
+                      </div> */}
                     </div>
 
-                    <div className="col-lg-12 d-flex justify-content-center mt-5 g-5 gap-5">
+                    {/* <div className="col-lg-12 d-flex justify-content-center mt-5 g-5 gap-5">
                       <div className="hero-button">
                         <Link href="/contact" className="theme-btn hover-white">
                           Get Started Now <i className="far fa-arrow-right" />
                         </Link>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
                     {/* <div className="hero-contact-box">
