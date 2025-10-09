@@ -33,7 +33,7 @@ export default function HomeMemberList({ teamMembers }) {
             </div>
           </div>
           <div className="col-lg-12 text-center">
-            <Link href="/member" className="theme-btn">
+            <Link href="/members" className="theme-btn">
               View More
               <i className="far fa-arrow-right" />
             </Link>

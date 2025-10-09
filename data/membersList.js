@@ -20,7 +20,7 @@ const teamMembers = [
     role: "Honey",
     company: "HUNNUBI",
     contact: "+91 88255 74979",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/ahamed-zameel.jpg",
     delay: ".5s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -35,7 +35,7 @@ const teamMembers = [
     role: "Industrial Hydraulics",
     company: "HYDRO TORK",
     contact: "+91 73733 63731",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/ajin-mano.jpg",
     delay: ".7s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -50,7 +50,7 @@ const teamMembers = [
     role: "Metallurgy",
     company: "MATRICS SUBSTANCE PVT LTD",
     contact: "+91 94448 92080",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/ajith-kumar.jpg",
     delay: ".9s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -65,7 +65,7 @@ const teamMembers = [
     role: "Gas Agency",
     company: "KAMARAJ INDANE GAS AGENCIES",
     contact: "+91 99409 41422",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/alagendra-nithi.jpg",
     delay: ".3s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -95,7 +95,7 @@ const teamMembers = [
     role: "Event Management",
     company: "RED FRAME EVENTS",
     contact: "+91 82204 85060",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/arun-chelladurai.jpg",
     delay: ".7s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -140,7 +140,7 @@ const teamMembers = [
     role: "All For Business",
     company: "Intransquare Pvt Ltd.",
     contact: "+91 95978 05577",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/cruz-stani-thanis.jpg",
     delay: ".5s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -155,7 +155,7 @@ const teamMembers = [
     role: "Website Hosting",
     company: "TECHNOVUZ SOLUTIONS",
     contact: "+91 9944233994",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/edwin-raj.jpg",
     delay: ".7s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -170,7 +170,7 @@ const teamMembers = [
     role: "Interior Architecture",
     company: "TRAX ARCHITECTURE",
     contact: "+91 87563 21329",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/fasiludeen-b.jpg",
     delay: ".9s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -185,7 +185,7 @@ const teamMembers = [
     role: "Elevator and Escalator",
     company: "6J HOME INNOVATIONS",
     contact: "+91 77086 77677",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/george-micheal.jpg",
     delay: ".3s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -199,7 +199,7 @@ const teamMembers = [
     url: "/members/gopinath-c",
     role: "Mobile Telecommunications",
     company: "BOBBQUE MOBILE ACCESIORES",
-    contact: "+91 8124619883",
+    contact: "+91 81246 19883",
     image: "/assets/img/team/07.jpg",
     delay: ".5s",
     socials: [
@@ -212,8 +212,10 @@ const teamMembers = [
   {
     name: "Jeba Singh",
     url: "/members/jeba-singh",
-    role: "Member",
-    image: "/assets/img/team/07.jpg",
+    role: "Agricultural Eio Technology ",
+    company: "CHENTHAMIL AGRIZONE PVT LTD",
+    contact: "+91 93451 68330",
+    image: "/assets/img/team/jeba-singh.jpg",
     delay: ".5s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -258,7 +260,7 @@ const teamMembers = [
     role: "Charcool Briquettes",
     company: "JF EXIM TRADEASE",
     contact: "+91 97912 44961",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/jonal-fredick.jpg",
     delay: ".3s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -333,7 +335,7 @@ const teamMembers = [
     role: "Pest Control",
     company: "PEST OFEEL",
     contact: "+91 97918 22321",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/lenin-paul-singh.jpg",
     delay: ".5s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -393,7 +395,7 @@ const teamMembers = [
     role: "Electronics and Home Appliances",
     company: "Albi Electronics",
     contact: "+91 94980 06042",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/mohan-m.jpg",
     delay: ".5s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -406,7 +408,7 @@ const teamMembers = [
     name: "Nagarajan.M",
     url: "/members/nagarajan-m",
     role: "UPS / Inverter",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/nagarajan-m.jpg",
     delay: ".7s",
     company: "POWER PULSE",
     contact: "+91 94889 39000",
@@ -453,7 +455,7 @@ const teamMembers = [
     role: "Wealth Management",
     company: "S V PERUMAL WEALTH MANAGEMENT",
     contact: "+91 95665 16920",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/perumal-sv.jpg",
     delay: ".5s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -483,7 +485,7 @@ const teamMembers = [
     role: "Accounting, Neuropath",
     company: "RRR SIDHA HOSPITAL",
     contact: "+91 94866 14674",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/rajarethinam-rajaram.jpg",
     delay: ".9s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -498,7 +500,7 @@ const teamMembers = [
     role: "Neurosurgeon",
     company: "DOCTOR/PHYSICIAN",
     contact: "+91 8903332221",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/rajesh-a.jpg",
     delay: ".3s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -526,7 +528,7 @@ const teamMembers = [
     name: "Raman.R",
     url: "/members/raman-r",
     role: "Wall Coverings",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/raman-r.jpg",
     delay: ".7s",
     company: "ROYAL 3D WALL PAINTING & ART DECORATION",
     contact: "+91 93816 03353",
@@ -676,7 +678,7 @@ const teamMembers = [
     role: "Dry Fruits, Nuts & Spices",
     company: "Healthyx Zone",
     contact: "+91 80724 01180",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/stalin-francis.jpg",
     delay: ".3s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -691,7 +693,7 @@ const teamMembers = [
     role: "Auditor",
     company: "SAKTHI AND CO",
     contact: "+91 9486257184",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/subash-s.jpg",
     delay: ".5s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -721,7 +723,7 @@ const teamMembers = [
     role: "Wellness Coach",
     company: "HERBALIFE NUTRITION",
     contact: "+91 9884794567",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/suresh-k.jpg",
     delay: ".9s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -734,7 +736,7 @@ const teamMembers = [
     name: "Suthakar Thangarajan",
     url: "/members/suthakar-thangarajan",
     role: "Sanitaryware & Plumbing Materials",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/suthakar-thangarajan.jpg",
     delay: ".3s",
     company: "ALLIED AGENCIES",
     contact: "+91 94868 55554",

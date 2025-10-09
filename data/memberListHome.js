@@ -20,7 +20,7 @@ const teamMembers = [
     role: "Honey",
     company: "HUNNUBI",
     contact: "+91 88255 74979",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/ahamed-zameel.jpg",
     delay: ".5s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -35,7 +35,7 @@ const teamMembers = [
     role: "Industrial Hydraulics",
     company: "HYDRO TORK",
     contact: "+91 73733 63731",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/ajin-mano.jpg",
     delay: ".7s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -50,7 +50,7 @@ const teamMembers = [
     role: "Metallurgy",
     company: "MATRICS SUBSTANCE PVT LTD",
     contact: "+91 94448 92080",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/ajith-kumar.jpg",
     delay: ".9s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -65,7 +65,7 @@ const teamMembers = [
     role: "Gas Agency",
     company: "KAMARAJ INDANE GAS AGENCIES",
     contact: "+91 99409 41422",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/alagendra-nithi.jpg",
     delay: ".3s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
@@ -95,7 +95,7 @@ const teamMembers = [
     role: "Event Management",
     company: "RED FRAME EVENTS",
     contact: "+91 82204 85060",
-    image: "/assets/img/team/07.jpg",
+    image: "/assets/img/team/arun-chelladurai.jpg",
     delay: ".7s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
