@@ -46,7 +46,7 @@ const MemberPage = ({ params }) => {
                               width: "200px",
                               height: "200px",
                               objectFit: "cover",
-                              border: "4px solid #0d6efd",
+                              border: "4px solid rgb(207 32 49)",
                             }}
                           />
                         </div>
@@ -59,7 +59,12 @@ const MemberPage = ({ params }) => {
                             {member.name}
                           </h1>
 
-                          <p className="h5 text-primary mb-2">{member.role}</p>
+                          <p
+                            className="h5 text-primary mb-2"
+                            style={{ color: "rgb(207 32 49) !important" }}
+                          >
+                            {member.role}
+                          </p>
 
                           {member.company && (
                             <p className="fs-5 text-secondary mb-2">
@@ -76,20 +81,26 @@ const MemberPage = ({ params }) => {
                           )}
 
                           {/* Social Links */}
-                          <div className="d-flex justify-content-center justify-content-md-start gap-3">
+                          {/* <div className="d-flex justify-content-center justify-content-md-start gap-3">
                             {member.socials.map((social, index) => (
                               <a
                                 key={index}
                                 href={social.url}
                                 className="btn btn-outline-secondary btn-sm rounded-circle"
-                                style={{ width: "40px", height: "40px" }}
+                                style={{
+                                  width: "40px",
+                                  height: "40px",
+                                  display: "flex",
+                                  alignItems: "center",
+                                  justifyContent: "center",
+                                }}
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
                                 <i className={`${social.icon}`}></i>
                               </a>
                             ))}
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>

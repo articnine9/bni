@@ -43,7 +43,7 @@ export default function MemberListData({ member }) {
               </p>
             )}
           </div>
-          <div className="social-profile">
+          {/* <div className="social-profile">
             <ul>
               {m.socials?.map((social, i) => (
                 <li key={i}>
@@ -60,7 +60,7 @@ export default function MemberListData({ member }) {
             <span className="plus-btn">
               <i className="far fa-plus" />
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

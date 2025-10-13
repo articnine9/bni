@@ -6857,7 +6857,8 @@ input.main-search-input::placeholder {
   border-image-slice: 30;
 }
 .width90 {
-  width: 90%;
+  width: 100%;
+  text-align: center;
 }
 .phoneI i {
   color: var(--base);
@@ -6871,6 +6872,7 @@ input.main-search-input::placeholder {
 .team-items .team-content {
   position: relative;
   margin-top: 20px;
+  text-align: center;
 }
 .team-items .team-content .social-profile {
   position: absolute;

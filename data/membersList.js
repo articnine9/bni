@@ -194,21 +194,7 @@ const teamMembers = [
       { icon: "fab fa-linkedin-in", url: "#" },
     ],
   },
-  {
-    name: "Gopinath C",
-    url: "/members/gopinath-c",
-    role: "Mobile Telecommunications",
-    company: "BOBBQUE MOBILE ACCESIORES",
-    contact: "+91 81246 19883",
-    image: "/assets/img/team/07.jpg",
-    delay: ".5s",
-    socials: [
-      { icon: "fab fa-twitter", url: "#" },
-      { icon: "fab fa-facebook-f", url: "#" },
-      { icon: "fab fa-instagram", url: "#" },
-      { icon: "fab fa-linkedin-in", url: "#" },
-    ],
-  },
+
   {
     name: "Jeba Singh",
     url: "/members/jeba-singh",

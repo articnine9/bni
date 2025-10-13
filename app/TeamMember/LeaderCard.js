@@ -22,10 +22,11 @@ export default function LeaderCard({ leader }) {
         </div>
         <div className="team-content">
           <h4>
-            <Link href="team-details">{l.name}</Link>
+            {/* <Link href="team-details">{l.name}</Link> */}
+            {l.name}
           </h4>
           <p>{l.role}</p>
-          <div className="social-profile">
+          {/* <div className="social-profile">
             <ul>
               {l.socials?.map((social, i) => (
                 <li key={i}>
@@ -38,7 +39,7 @@ export default function LeaderCard({ leader }) {
             <span className="plus-btn">
               <i className="far fa-plus" />
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

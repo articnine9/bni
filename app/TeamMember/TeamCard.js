@@ -23,10 +23,11 @@ export default function TeamCard({ member }) {
         </div>
         <div className="team-content">
           <h4>
-            <Link href="team-details">{m.name}</Link>
+            {/* <Link href="team-details">{m.name}</Link> */}
+            {m.name}
           </h4>
           <p>{m.role}</p>
-          <div className="social-profile">
+          {/* <div className="social-profile">
             <ul>
               {m.socials?.map((social, i) => (
                 <li key={i}>
@@ -39,7 +40,7 @@ export default function TeamCard({ member }) {
             <span className="plus-btn">
               <i className="far fa-plus" />
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
