@@ -603,8 +603,11 @@ const teamMembers = [
   {
     name: "Sadhiq Abdul Majeed",
     url: "/members/sadhiq-abdul-majeed",
-    role: "Member",
-    image: "/assets/img/team/07.jpg",
+    role: "Restaurant",
+    company: "COPPER POTZ CAFE & RESTAURANT",
+    contact: "+91 90955 88599",
+
+    image: "/assets/img/team/sadhiq-abdul-majeed.jpg",
     delay: ".3s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
