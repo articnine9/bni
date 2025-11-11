@@ -752,10 +752,12 @@ const teamMembers = [
     ],
   },
   {
-    name: "Vignesh vignesh",
+    name: "Dr. Vignesh Sekar",
     url: "/members/vignesh-vignesh",
-    role: "Member",
-    image: "/assets/img/team/07.jpg",
+    role: "Real Estate",
+    company: "MAHALAKSHMI REAL ESTATE",
+    contact: "+91 88798 88426",
+    image: "/assets/img/team/vignesh-vignesh.jpg",
     delay: ".7s",
     socials: [
       { icon: "fab fa-twitter", url: "#" },
